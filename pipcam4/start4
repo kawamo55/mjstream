@@ -1,0 +1,6 @@
+#!/bin/bash
+export DISPLAY=:0.0
+./readcam4.py &
+echo 'please wait for 10sec to start'
+sleep 10
+./vs4.py

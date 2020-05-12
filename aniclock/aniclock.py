@@ -54,7 +54,7 @@ def getStream():
         writeclock(i)
         flg, frame = cv2.imencode('.jpg', i)
         yield b'--frame\r\n'+b'Content-Type: image/jpeg\r\n\r\n'+bytearray(frame)+b'\r\n\r\n'
-        time.sleep(0.8)
+        time.sleep(1.0)
 
 @app.route('/')
 def main( ):
