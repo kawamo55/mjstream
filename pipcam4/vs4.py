@@ -11,7 +11,7 @@ from flask import Flask as fl, render_template as rt,Response
 #ファイル書込みタイミング(秒)
 wt=0.2
 #何枚前の画像を転送するか？
-bt=2
+bt=3
 
 app=fl(__name__)
 
