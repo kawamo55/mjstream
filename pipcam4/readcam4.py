@@ -6,6 +6,7 @@
 
 import time
 import cv2
+import sys
 
 dev='/dev/video0'
 winn='show cam'
